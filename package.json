@@ -1,0 +1,29 @@
+{
+  "name": "main-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 5000",
+    "build": "next build",
+    "build-staging": "next build --mode staging",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^8.6.0",
+    "autoprefixer": "^10.4.20",
+    "css-loader": "^7.1.2",
+    "next": "14.2.13",
+    "primeflex": "^3.3.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.8.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0"
+  },
+  "devDependencies": {
+    "postcss": "^8",
+    "tailwindcss": "^3.4.13"
+  }
+}
